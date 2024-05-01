@@ -1,0 +1,77 @@
+:root {
+    --bs-primary: #007bff; /* Bootstrap's default blue */
+    --bs-info: #17a2b8; /* Lighter blue for informational components */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important; /* Ensures high contrast and legibility */
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important; /* Dark blue-gray shade */
+}
+
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('welding-background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} */
+
+section {
+    padding: 20px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 5px;
+    }
+} 
